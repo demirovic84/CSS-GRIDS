@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: comfortaa ;
+  font-size: 1em;
+  height: 100%;
+  background: white;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    margin: 0 auto;
+    padding: 50px;
+}
+
+/*YACHT*/
+.yacht {
+  background-image: url("img/yacht.jpg"); 
+  color: #fff;
+  padding: 20px;
+  font-size: 150%;
+}
+.yacht {
+    grid-column: 1/4;
+	grid-row: 1/5;
+}
+.yachtText {
+	grid-column: 2/4;
+    grid-row: 5/6;
+    margin-top: 50px;
+}
+p.yachtText {
+    width: 600px;
+}
+
+
+/*BERNHOLD*/
+.bernhold {
+  background-image: url("img/bern2.jpg"); 
+  color: #fff;
+  padding: 20px;
+  font-size: 150%;
+}
+.bernhold {
+    grid-column: 1/4;
+	grid-row: 1/5;
+}
+.bernholdText{
+	grid-column: 2/4;
+    grid-row: 5/6;
+    margin-top: 50px;
+}
+p.bernholdText {
+    width: 600px;
+}
+
+/*MILLA K*/
+.millak {
+  background-image: url("img/millak.jpg"); 
+  color: #fff;
+  padding: 20px;
+  font-size: 150%;
+}
+.millak {
+    grid-column: 1/4;
+	grid-row: 1/5;
+}
+.millakText{
+	grid-column: 2/4;
+    grid-row: 5/6;
+    margin-top: 50px;
+}
+p.millakText {
+    width: 600px;
+}
+/*
+button.button {
+    height: 40px;
+    width: 100px;
+    color: white;
+    background: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}*/
