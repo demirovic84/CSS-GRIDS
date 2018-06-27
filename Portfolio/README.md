@@ -1,6 +1,4 @@
-#Portfolio
-
-CSS GRIDS PORTFOLIO
+# CSS-GRIDS Portfolio
 
 Live preview:
 http://www.demirovic.se/Portfolio
