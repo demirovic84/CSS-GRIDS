@@ -1,5 +1,4 @@
-CSS-GRIDS
-GRIDS with Star wars
+# CSS-GRIDS with Star wars
 
 Made with CSS Grids
 
